@@ -1,0 +1,28 @@
+* {
+    magin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-principal: #2e7d32;
+    --color-texto: #222;
+    --color-fondo: #f5f5f5;
+    --fuente: "segoe UI", arial, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    front-family: var(--fuente);
+    color: var(--color-texto)
+    background-color: var(--color-fondo)
+    lime-height: 1.6;
+}
+img {
+    max-width: 100%;
+    display:block;
+}
+a {
+    text-decoration: none;
+    color: var(--color-principal)
+}
